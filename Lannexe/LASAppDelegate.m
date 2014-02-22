@@ -7,6 +7,8 @@
 //
 
 #import "LASAppDelegate.h"
+#import <MMDrawerController/MMDrawerController.h>
+
 
 @implementation LASAppDelegate
 
@@ -16,10 +18,17 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
-    [self.window makeKeyAndVisible];
+    
+    MMDrawerController * drawerController = (MMDrawerController *)self.window.rootViewController;
+    [drawerController setMaximumLeftDrawerWidth:200.0];
+    drawerController.shouldStretchDrawer = NO;
+    drawerController.showsStatusBarBackgroundView = YES;
+    drawerController.statusBarViewBackgroundColor = [UIColor colorWithIntegerRed:16 green:157 blue:180 alpha:1.0]; //statusBarViewBackgroundColor
+    [drawerController setOpenDrawerGestureModeMask:MMOpenDrawerGestureModeAll];
+    [drawerController setCloseDrawerGestureModeMask:MMCloseDrawerGestureModeAll];
+    
+    [MagicalRecord setupCoreDataStack];
+
     return YES;
 }
 
