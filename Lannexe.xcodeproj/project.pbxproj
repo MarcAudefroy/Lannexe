@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		92C11CF418B893C8006578BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92C11CF318B893C8006578BC /* Foundation.framework */; };
+		92C11CF618B893C8006578BC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92C11CF518B893C8006578BC /* CoreGraphics.framework */; };
+		92C11CF818B893C8006578BC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92C11CF718B893C8006578BC /* UIKit.framework */; };
+		92C11CFA18B893C8006578BC /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92C11CF918B893C8006578BC /* CoreData.framework */; };
+		92C11D0018B893C8006578BC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 92C11CFE18B893C8006578BC /* InfoPlist.strings */; };
+		92C11D0218B893C8006578BC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C11D0118B893C8006578BC /* main.m */; };
+		92C11D0618B893C8006578BC /* LASAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C11D0518B893C8006578BC /* LASAppDelegate.m */; };
+		92C11D0918B893C8006578BC /* Lannexe.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 92C11D0718B893C8006578BC /* Lannexe.xcdatamodeld */; };
+		92C11D0B18B893C8006578BC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92C11D0A18B893C8006578BC /* Images.xcassets */; };
+		92C11D1218B893C8006578BC /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92C11D1118B893C8006578BC /* XCTest.framework */; };
+		92C11D1318B893C8006578BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92C11CF318B893C8006578BC /* Foundation.framework */; };
+		92C11D1418B893C8006578BC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92C11CF718B893C8006578BC /* UIKit.framework */; };
+		92C11D1518B893C8006578BC /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92C11CF918B893C8006578BC /* CoreData.framework */; };
+		92C11D1D18B893C8006578BC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 92C11D1B18B893C8006578BC /* InfoPlist.strings */; };
+		92C11D1F18B893C8006578BC /* LannexeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C11D1E18B893C8006578BC /* LannexeTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		92C11D1618B893C8006578BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92C11CE818B893C8006578BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92C11CEF18B893C8006578BC;
+			remoteInfo = Lannexe;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		92C11CF018B893C8006578BC /* Lannexe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lannexe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		92C11CF318B893C8006578BC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		92C11CF518B893C8006578BC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		92C11CF718B893C8006578BC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		92C11CF918B893C8006578BC /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		92C11CFD18B893C8006578BC /* Lannexe-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Lannexe-Info.plist"; sourceTree = "<group>"; };
+		92C11CFF18B893C8006578BC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		92C11D0118B893C8006578BC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		92C11D0318B893C8006578BC /* Lannexe-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Lannexe-Prefix.pch"; sourceTree = "<group>"; };
+		92C11D0418B893C8006578BC /* LASAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LASAppDelegate.h; sourceTree = "<group>"; };
+		92C11D0518B893C8006578BC /* LASAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LASAppDelegate.m; sourceTree = "<group>"; };
+		92C11D0818B893C8006578BC /* Lannexe.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Lannexe.xcdatamodel; sourceTree = "<group>"; };
+		92C11D0A18B893C8006578BC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		92C11D1018B893C8006578BC /* LannexeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LannexeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		92C11D1118B893C8006578BC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		92C11D1A18B893C8006578BC /* LannexeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LannexeTests-Info.plist"; sourceTree = "<group>"; };
+		92C11D1C18B893C8006578BC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		92C11D1E18B893C8006578BC /* LannexeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LannexeTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		92C11CED18B893C8006578BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92C11CF618B893C8006578BC /* CoreGraphics.framework in Frameworks */,
+				92C11CFA18B893C8006578BC /* CoreData.framework in Frameworks */,
+				92C11CF818B893C8006578BC /* UIKit.framework in Frameworks */,
+				92C11CF418B893C8006578BC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92C11D0D18B893C8006578BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92C11D1218B893C8006578BC /* XCTest.framework in Frameworks */,
+				92C11D1518B893C8006578BC /* CoreData.framework in Frameworks */,
+				92C11D1418B893C8006578BC /* UIKit.framework in Frameworks */,
+				92C11D1318B893C8006578BC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		92C11CE718B893C8006578BC = {
+			isa = PBXGroup;
+			children = (
+				92C11CFB18B893C8006578BC /* Lannexe */,
+				92C11D1818B893C8006578BC /* LannexeTests */,
+				92C11CF218B893C8006578BC /* Frameworks */,
+				92C11CF118B893C8006578BC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		92C11CF118B893C8006578BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				92C11CF018B893C8006578BC /* Lannexe.app */,
+				92C11D1018B893C8006578BC /* LannexeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		92C11CF218B893C8006578BC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				92C11CF318B893C8006578BC /* Foundation.framework */,
+				92C11CF518B893C8006578BC /* CoreGraphics.framework */,
+				92C11CF718B893C8006578BC /* UIKit.framework */,
+				92C11CF918B893C8006578BC /* CoreData.framework */,
+				92C11D1118B893C8006578BC /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		92C11CFB18B893C8006578BC /* Lannexe */ = {
+			isa = PBXGroup;
+			children = (
+				92C11D0418B893C8006578BC /* LASAppDelegate.h */,
+				92C11D0518B893C8006578BC /* LASAppDelegate.m */,
+				92C11D0A18B893C8006578BC /* Images.xcassets */,
+				92C11D0718B893C8006578BC /* Lannexe.xcdatamodeld */,
+				92C11CFC18B893C8006578BC /* Supporting Files */,
+			);
+			path = Lannexe;
+			sourceTree = "<group>";
+		};
+		92C11CFC18B893C8006578BC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				92C11CFD18B893C8006578BC /* Lannexe-Info.plist */,
+				92C11CFE18B893C8006578BC /* InfoPlist.strings */,
+				92C11D0118B893C8006578BC /* main.m */,
+				92C11D0318B893C8006578BC /* Lannexe-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		92C11D1818B893C8006578BC /* LannexeTests */ = {
+			isa = PBXGroup;
+			children = (
+				92C11D1E18B893C8006578BC /* LannexeTests.m */,
+				92C11D1918B893C8006578BC /* Supporting Files */,
+			);
+			path = LannexeTests;
+			sourceTree = "<group>";
+		};
+		92C11D1918B893C8006578BC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				92C11D1A18B893C8006578BC /* LannexeTests-Info.plist */,
+				92C11D1B18B893C8006578BC /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		92C11CEF18B893C8006578BC /* Lannexe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92C11D2218B893C8006578BC /* Build configuration list for PBXNativeTarget "Lannexe" */;
+			buildPhases = (
+				92C11CEC18B893C8006578BC /* Sources */,
+				92C11CED18B893C8006578BC /* Frameworks */,
+				92C11CEE18B893C8006578BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lannexe;
+			productName = Lannexe;
+			productReference = 92C11CF018B893C8006578BC /* Lannexe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		92C11D0F18B893C8006578BC /* LannexeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92C11D2518B893C8006578BC /* Build configuration list for PBXNativeTarget "LannexeTests" */;
+			buildPhases = (
+				92C11D0C18B893C8006578BC /* Sources */,
+				92C11D0D18B893C8006578BC /* Frameworks */,
+				92C11D0E18B893C8006578BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92C11D1718B893C8006578BC /* PBXTargetDependency */,
+			);
+			name = LannexeTests;
+			productName = LannexeTests;
+			productReference = 92C11D1018B893C8006578BC /* LannexeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		92C11CE818B893C8006578BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LAS;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = Supinfo;
+				TargetAttributes = {
+					92C11D0F18B893C8006578BC = {
+						TestTargetID = 92C11CEF18B893C8006578BC;
+					};
+				};
+			};
+			buildConfigurationList = 92C11CEB18B893C8006578BC /* Build configuration list for PBXProject "Lannexe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 92C11CE718B893C8006578BC;
+			productRefGroup = 92C11CF118B893C8006578BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				92C11CEF18B893C8006578BC /* Lannexe */,
+				92C11D0F18B893C8006578BC /* LannexeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		92C11CEE18B893C8006578BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92C11D0018B893C8006578BC /* InfoPlist.strings in Resources */,
+				92C11D0B18B893C8006578BC /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92C11D0E18B893C8006578BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92C11D1D18B893C8006578BC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		92C11CEC18B893C8006578BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92C11D0918B893C8006578BC /* Lannexe.xcdatamodeld in Sources */,
+				92C11D0218B893C8006578BC /* main.m in Sources */,
+				92C11D0618B893C8006578BC /* LASAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92C11D0C18B893C8006578BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92C11D1F18B893C8006578BC /* LannexeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		92C11D1718B893C8006578BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92C11CEF18B893C8006578BC /* Lannexe */;
+			targetProxy = 92C11D1618B893C8006578BC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		92C11CFE18B893C8006578BC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92C11CFF18B893C8006578BC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		92C11D1B18B893C8006578BC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92C11D1C18B893C8006578BC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		92C11D2018B893C8006578BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		92C11D2118B893C8006578BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		92C11D2318B893C8006578BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Lannexe/Lannexe-Prefix.pch";
+				INFOPLIST_FILE = "Lannexe/Lannexe-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		92C11D2418B893C8006578BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Lannexe/Lannexe-Prefix.pch";
+				INFOPLIST_FILE = "Lannexe/Lannexe-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		92C11D2618B893C8006578BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Lannexe.app/Lannexe";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Lannexe/Lannexe-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "LannexeTests/LannexeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		92C11D2718B893C8006578BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Lannexe.app/Lannexe";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Lannexe/Lannexe-Prefix.pch";
+				INFOPLIST_FILE = "LannexeTests/LannexeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		92C11CEB18B893C8006578BC /* Build configuration list for PBXProject "Lannexe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92C11D2018B893C8006578BC /* Debug */,
+				92C11D2118B893C8006578BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92C11D2218B893C8006578BC /* Build configuration list for PBXNativeTarget "Lannexe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92C11D2318B893C8006578BC /* Debug */,
+				92C11D2418B893C8006578BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		92C11D2518B893C8006578BC /* Build configuration list for PBXNativeTarget "LannexeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92C11D2618B893C8006578BC /* Debug */,
+				92C11D2718B893C8006578BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		92C11D0718B893C8006578BC /* Lannexe.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				92C11D0818B893C8006578BC /* Lannexe.xcdatamodel */,
+			);
+			currentVersion = 92C11D0818B893C8006578BC /* Lannexe.xcdatamodel */;
+			path = Lannexe.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 92C11CE818B893C8006578BC /* Project object */;
+}
